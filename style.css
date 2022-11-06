@@ -1,0 +1,16 @@
+body{
+    background-color: aquamarine;
+    height: 100vh;
+
+}
+.container{
+    display: grid;
+    grid-template-columns: 50px 50px 50px;
+    grid-template-rows: 50px 50px;
+    border: 1px solid black;
+}
+.item{
+    border: 1px solid black;
+    height: 21px;
+    width: 21px;
+}
