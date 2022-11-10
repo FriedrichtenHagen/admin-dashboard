@@ -23,3 +23,7 @@ body{
     grid-column-start: 2;
     grid-column-end: 5;
 }
+#verti{
+    grid-row-start: 1;
+    grid-row-end: 5
+}
