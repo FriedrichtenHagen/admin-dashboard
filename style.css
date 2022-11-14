@@ -9,6 +9,7 @@ body{
     grid-auto-rows: 50px;
     grid-auto-columns: 100px;
     border: 1px solid black;
+    column-gap: 2px;
 
 }
 .item{
