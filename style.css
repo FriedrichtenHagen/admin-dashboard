@@ -7,7 +7,7 @@
     border: 1px solid grey;
     background-color: skyblue;
     grid-template-rows: repeat(2, min(400px, 1fr));
-    grid-template-columns: repeat(5, clamp(150px, 20%, 400px));
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   }
   
   .grid-item {
