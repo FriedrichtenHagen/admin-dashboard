@@ -141,7 +141,6 @@ button{
   background-color: rgb(198, 203, 208);
 }
 .projects{
-  background-color: rgb(232, 150, 49);
   grid-column: 1 /3;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -153,23 +152,45 @@ button{
 }
 .box{
   border: 1px solid black;
+  border-radius: 5px;
   background-color: rgb(197, 195, 195);
+  padding: 5px;
+  display: grid;
+  grid-template-columns: 5px 1fr;
+  grid-template-rows: 1fr 20px;
+}
+.colorstrip{
+  background-color: brown;
+  grid-column: 1 /2;
+  grid-row: 1 /2;
+}
+.box h2{
+  font-size: 0.7rem;
+}
+.boxtext{
+  font-size: 0.5rem;
+  grid-row: 1 / 2;
+  grid-column: 2 / 3;
+}
+.boxicons{
+  grid-row: 2 / 3;
+  grid-column: 2 /3;
 }
 .rightbar{
-  background-color: rgb(97, 136, 220);
   display: grid;
-  grid-row: 1fr 1fr;
+  grid-template-rows: 30px 1fr 30px 1fr;
+  gap: 5px;
+  padding-left: 10px;
 }
-.announcements{
-  grid-row: 1 /2;
-  display: flex;
-  flex-direction: column;
+.announcementheader{
+  text-align: center;
 }
 .announcementbox{
   border: 1px solid black;
 }
-.trending{
-  grid-row: 2 / 3;
+.trendingheader{
+  grid-row: 3 / 4;
+  text-align: center;
 }
 .trendbox{
   border: 1px solid black;
