@@ -1,3 +1,7 @@
+*{
+  margin: 0px;
+  padding: 0px
+}
 .gridcontainer {
   height: 100vh;
   width: 100vw;
@@ -10,7 +14,18 @@
   background: red;
   grid-column: 2 / 8;
   grid-row: 1 / 2;
-}  
+} 
+.headerrow1{
+
+}
+.search{
+  display: flex;
+  padding: 6px;
+}
+#searchicon{
+  width: 15px;
+  padding: 2px;
+} 
 .navbar{
   background-color: green;
   grid-column: 1 /2;
