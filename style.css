@@ -33,11 +33,17 @@
   align-items: center;
   padding: 5px;
 }
+input{
+  border-radius: 2px;
+  border: 1px solid black;
+}
 .profile *{
   padding: 2px;
 }
 #caticon{
   width: 15px;
+  background-color: rgb(252, 248, 176);
+  border-radius: 5px;
 }
 #alerticon{
   width: 15px;
@@ -50,15 +56,64 @@
 .welcome{
   display: flex;
   align-items: center;
+  padding: 5px;
+}
+.welcometext{
+  padding-left: 5px;
 }
 #caticonlarge{
   width: 30px;
+  padding: 2px;
+  background-color: rgb(252, 248, 176);
+  border-radius: 5px;
 }
+.buttonrow{
+  padding: 5px;
+}
+button{
+  padding: 2px;
+  border-radius: 5px;
+  outline: none;
+  border: 0.8px solid black;
+  font-size: 0.7em;
+  background-color: rgb(231, 239, 239);
+}
+
+
+
+
+
 .navbar{
   background-color: rgb(32, 210, 241);
   grid-column: 1 /2;
   grid-row: 1 / 8;
+  padding: 1vw;
 }
+.navlogo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#cuteicon{
+  width: 12vw;
+  padding: 4px;
+}
+.navlist1, .navlist2{
+  font-size: 0.7em;
+}
+.navlist1>ul, .navlist2>ul{
+  list-style: none;
+}
+.navlist1>ul {
+  margin-top: 8vh;
+}
+.navlist2>ul {
+  margin-top: 8vh;
+}
+
+
+
+
 .content{
   background-color: antiquewhite;
 }
