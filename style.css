@@ -33,6 +33,7 @@
 #searchicon{
   width: 15px;
   padding: 2px;
+  margin-right: 5px;
 } 
 .profile{
   display: flex;
@@ -45,6 +46,7 @@ input{
 }
 .profile *{
   padding: 2px;
+  margin-right: 4px;
 }
 #caticon{
   width: 15px;
@@ -83,10 +85,10 @@ input{
   padding: 5px;
 }
 button{
-  padding: 2px;
+  padding: 4px;
   border-radius: 5px;
   outline: none;
-  border: 0.8px solid black;
+  border: 0px solid black;
   font-size: 0.7em;
   background-color:rgb(251 248 176);
 }
@@ -115,6 +117,11 @@ button{
 }
 .navlist1>ul, .navlist2>ul{
   list-style: none;
+  font-size: 2vw;
+  margin-left: 1vw;
+}
+.navlist1 li, .navlist2 li{
+  margin-top: 1vh;
 }
 .navlist1>ul {
   margin-top: 8vh;
@@ -127,5 +134,25 @@ button{
 
 /*CONTENT*/
 .content{
-  background-color: antiquewhite;
+  display: grid;
+  grid-template-columns: 1.1fr 1.1fr 1fr;
+  grid-template-rows: 1fr ;
+  padding: 10px;
+  background-color: rgb(198, 203, 208);
+}
+.projects{
+  background-color: rgb(232, 150, 49);
+  grid-column: 1 /3;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 30px 1fr 1fr 1fr;
+}
+.projectheader{
+  grid-column: 1/3;
+}
+.box{
+  border: 1px solid black;
+}
+.rightbar{
+  background-color: rgb(97, 136, 220);
 }
