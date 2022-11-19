@@ -10,10 +10,16 @@
   grid-template-columns: 1fr 6fr;
   grid-template-rows: 1fr 7fr;
 }
+
+
+
+/*HEADER*/
 .header{
   background: rgb(190, 237, 242);
   grid-column: 2 / 8;
   grid-row: 1 / 2;
+  padding-left: 10px;
+  padding-right: 10px;
 } 
 .headerrow1{
   display: flex;
@@ -61,6 +67,12 @@ input{
 .welcometext{
   padding-left: 5px;
 }
+.uppertext{
+  font-size: 0.5em;
+}
+.lowertext{
+  font-size: 0.8em;
+}
 #caticonlarge{
   width: 30px;
   padding: 2px;
@@ -76,13 +88,13 @@ button{
   outline: none;
   border: 0.8px solid black;
   font-size: 0.7em;
-  background-color: rgb(231, 239, 239);
+  background-color:rgb(251 248 176);
 }
 
 
 
 
-
+/*NAVBAR*/
 .navbar{
   background-color: rgb(32, 210, 241);
   grid-column: 1 /2;
@@ -113,7 +125,7 @@ button{
 
 
 
-
+/*CONTENT*/
 .content{
   background-color: antiquewhite;
 }
