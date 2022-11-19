@@ -11,23 +11,51 @@
   grid-template-rows: 1fr 7fr;
 }
 .header{
-  background: red;
+  background: rgb(190, 237, 242);
   grid-column: 2 / 8;
   grid-row: 1 / 2;
 } 
 .headerrow1{
-
+  display: flex;
+  justify-content: space-between;
 }
 .search{
   display: flex;
-  padding: 6px;
+  align-items: center;
+  padding: 5px;
 }
 #searchicon{
   width: 15px;
   padding: 2px;
 } 
+.profile{
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+.profile *{
+  padding: 2px;
+}
+#caticon{
+  width: 15px;
+}
+#alerticon{
+  width: 15px;
+}
+.headerrow2{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.welcome{
+  display: flex;
+  align-items: center;
+}
+#caticonlarge{
+  width: 30px;
+}
 .navbar{
-  background-color: green;
+  background-color: rgb(32, 210, 241);
   grid-column: 1 /2;
   grid-row: 1 / 8;
 }
