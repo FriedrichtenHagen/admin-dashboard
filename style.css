@@ -61,7 +61,7 @@ input{
   border-radius: 5px;
 }
 #alerticon{
-  width: 30px;
+  width: 21px;
 }
 .username{
   font-size: 2rem;
@@ -122,16 +122,21 @@ button{
   width: 9vw;
   padding: 4px;
 }
+.navul>li{
+  display: flex;
+  align-items: center;
+  margin-top: 0px;
+}
+.navicons{
+  width: 2rem;
+}
 .navlist1, .navlist2{
   font-size: 0.7rem;
 }
 .navlist1>ul, .navlist2>ul{
   list-style: none;
-  font-size: 2vw;
+  font-size: 1.2vw;
   margin-left: 1vw;
-}
-.navlist1 li, .navlist2 li{
-  margin-top: 1vh;
 }
 .navlist1>ul {
   margin-top: 8vh;
@@ -207,6 +212,8 @@ button{
 }
 .announcementbox{
   border: 1px solid black;
+  overflow: scroll;
+  max-height: 230px;
 }
 .announcementbox h3{
   font-size: 1rem;
@@ -232,7 +239,7 @@ button{
   height: 3rem;
   background-color: blue;
   border-radius: 1.5rem;
-  display: flex;
+  display: flex;  
   justify-content: center;
   align-items: center;
 }
