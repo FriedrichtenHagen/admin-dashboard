@@ -1,3 +1,10 @@
+:root{
+  --headercolor: rgb(190, 237, 242);
+  --hightlight: rgb(252, 248, 176);
+  --contentbackground: rgb(198, 203, 208);
+  --boxcolor: rgb(249 246 246);
+  --navbarcolor: rgb(32, 210, 241);
+}
 *{
   margin: 0px;
   padding: 0px
@@ -6,7 +13,7 @@
   height: 100vh;
   width: 100vw;
   display: grid;
-  background-color: skyblue;
+
   grid-template-columns: 1fr 6fr;
   grid-template-rows: 1fr 7fr;
 }
@@ -15,7 +22,7 @@
 
 /*HEADER*/
 .header{
-  background: rgb(190, 237, 242);
+  background: var(--headercolor);
   grid-column: 2 / 8;
   grid-row: 1 / 2;
   padding-left: 10px;
@@ -50,7 +57,7 @@ input{
 }
 #caticon{
   width: 15px;
-  background-color: rgb(252, 248, 176);
+  background-color: var(--hightlight);
   border-radius: 5px;
 }
 #alerticon{
@@ -78,7 +85,7 @@ input{
 #caticonlarge{
   width: 30px;
   padding: 2px;
-  background-color: rgb(252, 248, 176);
+  background-color: var(--hightlight);
   border-radius: 5px;
 }
 .buttonrow{
@@ -90,7 +97,7 @@ button{
   outline: none;
   border: 0px solid black;
   font-size: 0.7em;
-  background-color:rgb(251 248 176);
+  background-color: var(--hightlight);
 }
 
 
@@ -98,7 +105,7 @@ button{
 
 /*NAVBAR*/
 .navbar{
-  background-color: rgb(32, 210, 241);
+  background-color: var(--navbarcolor);
   grid-column: 1 /2;
   grid-row: 1 / 8;
   padding: 1vw;
@@ -138,7 +145,7 @@ button{
   grid-template-columns: 1.1fr 1.1fr 1fr;
   grid-template-rows: 1fr ;
   padding: 10px;
-  background-color: rgb(198, 203, 208);
+  background-color: var(--contentbackground);
 }
 .projects{
   grid-column: 1 /3;
@@ -153,12 +160,9 @@ button{
 .box{
   border: 1px solid black;
   border-radius: 5px;
-  background-color: rgb(249 246 246);
+  background-color: var(--boxcolor);
   padding: 7px;
-  display: grid;
-  grid-template-columns: 5px 1fr;
-  grid-template-rows: 1fr 20px;
-  border-left-color: #fbf8b0;
+  border-left-color: var(--hightlight);
   border-left-width: 4px;
   border-left-style: solid;
 }
@@ -193,6 +197,17 @@ button{
 .announcementbox{
   border: 1px solid black;
 }
+.announcementbox h3{
+  font-size: 0.5rem;
+}
+.anntext{
+  font-size: 0.4rem;
+}
+.ann1, .ann2{
+  border-bottom: solid;
+}
+
+
 .trendingheader{
   grid-row: 3 / 4;
   text-align: center;
