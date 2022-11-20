@@ -64,7 +64,7 @@ input{
   width: 30px;
 }
 .username{
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 .headerrow2{
   display: flex;
@@ -86,7 +86,7 @@ input{
   font-size: 1.6em;
 }
 #caticonlarge{
-  width: 30px;
+  width: 43px;
   padding: 2px;
   background-color: var(--hightlight);
   border-radius: 5px;
@@ -119,7 +119,7 @@ button{
   align-items: center;
 }
 #cuteicon{
-  width: 12vw;
+  width: 9vw;
   padding: 4px;
 }
 .navlist1, .navlist2{
@@ -145,7 +145,7 @@ button{
 /*CONTENT*/
 .content{
   display: grid;
-  grid-template-columns: 1.1fr 1.1fr 1fr;
+  grid-template-columns: 1.8fr 1.8fr 1fr;
   grid-template-rows: 1fr ;
   padding: 10px;
   background-color: var(--contentbackground);
@@ -160,16 +160,19 @@ button{
 .projectheader{
   grid-column: 1/3;
 }
+.projectheader, .announcementheader, .trendingheader{
+  font-size: 1.5rem;
+}
 .box{
   border: 1px solid black;
   border-radius: 5px;
   background-color: var(--boxcolor);
   padding: 17px;
   border-left-color: var(--hightlight);
-  border-left-width: 4px;
+  border-left-width: 12px;
   border-left-style: solid;
 }
-.box1, .box2, .box3{
+.box1, .box2, .box3, .box4, .box5, .box6{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -196,7 +199,7 @@ button{
 .rightbar{
   display: grid;
   grid-template-rows: 30px 1fr 30px 1fr;
-  gap: 5px;
+  gap: 15px;
   padding-left: 10px;
 }
 .announcementheader{
@@ -216,7 +219,7 @@ button{
   border-bottom: 0.5px solid var(--contentbackground);
   margin-bottom: 0.6rem;
 }
-
+/* TRENDBOX*/
 .trendingheader{
   grid-row: 3 / 4;
   text-align: center;
@@ -224,3 +227,27 @@ button{
 .trendbox{
   border: 1px solid black;
 }
+.trendimage{
+  width: 3rem;
+  height: 3rem;
+  background-color: blue;
+  border-radius: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.trend1, .trend2, .trend3, .trend4{
+  display: flex;
+  padding: 5px;
+}
+.trendtext{
+  margin-left:1.5rem;
+}
+.trendline1{
+  font-weight: bold;
+}
+.trendline2{
+  font-size: 0.8rem;
+}
+
+
