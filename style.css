@@ -53,15 +53,18 @@ input{
 }
 .profile *{
   padding: 2px;
-  margin-right: 4px;
+  margin-right: 8px;
 }
 #caticon{
-  width: 15px;
+  width: 30px;
   background-color: var(--hightlight);
   border-radius: 5px;
 }
 #alerticon{
-  width: 15px;
+  width: 30px;
+}
+.username{
+  font-size: 1.5rem;
 }
 .headerrow2{
   display: flex;
@@ -77,10 +80,10 @@ input{
   padding-left: 5px;
 }
 .uppertext{
-  font-size: 0.5em;
+  font-size: 1em;
 }
 .lowertext{
-  font-size: 0.8em;
+  font-size: 1.6em;
 }
 #caticonlarge{
   width: 30px;
@@ -92,11 +95,11 @@ input{
   padding: 5px;
 }
 button{
-  padding: 4px;
-  border-radius: 5px;
+  padding: 7px;
+  border-radius: 11px;
   outline: none;
   border: 0px solid black;
-  font-size: 0.7em;
+  font-size: 1em;
   background-color: var(--hightlight);
 }
 
@@ -120,7 +123,7 @@ button{
   padding: 4px;
 }
 .navlist1, .navlist2{
-  font-size: 0.7em;
+  font-size: 0.7rem;
 }
 .navlist1>ul, .navlist2>ul{
   list-style: none;
@@ -152,7 +155,7 @@ button{
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 30px 1fr 1fr 1fr;
-  gap: 5px;
+  gap: 15px;
 }
 .projectheader{
   grid-column: 1/3;
@@ -161,10 +164,15 @@ button{
   border: 1px solid black;
   border-radius: 5px;
   background-color: var(--boxcolor);
-  padding: 7px;
+  padding: 17px;
   border-left-color: var(--hightlight);
   border-left-width: 4px;
   border-left-style: solid;
+}
+.box1, .box2, .box3{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .box h2{
   font-size: 1rem;
@@ -182,7 +190,7 @@ button{
   justify-content: flex-end;
 }
 .icon{
-  width: 10px;
+  width: 15px;
   margin-right: 5px;
 }
 .rightbar{
@@ -198,17 +206,16 @@ button{
   border: 1px solid black;
 }
 .announcementbox h3{
-  font-size: 0.5rem;
+  font-size: 1rem;
 }
 .anntext{
-  font-size: 0.4rem;
+  font-size: 0.8rem;
 }
 .ann1, .ann2{
-  padding-bottom: 0.2rem;
+  padding-bottom: 0.6rem;
   border-bottom: 0.5px solid var(--contentbackground);
-  margin-bottom: 0.2rem;
+  margin-bottom: 0.6rem;
 }
-
 
 .trendingheader{
   grid-row: 3 / 4;
