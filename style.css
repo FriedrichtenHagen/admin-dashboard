@@ -153,16 +153,14 @@ button{
 .box{
   border: 1px solid black;
   border-radius: 5px;
-  background-color: rgb(197, 195, 195);
-  padding: 5px;
+  background-color: rgb(249 246 246);
+  padding: 7px;
   display: grid;
   grid-template-columns: 5px 1fr;
   grid-template-rows: 1fr 20px;
-}
-.colorstrip{
-  background-color: brown;
-  grid-column: 1 /2;
-  grid-row: 1 /2;
+  border-left-color: #fbf8b0;
+  border-left-width: 4px;
+  border-left-style: solid;
 }
 .box h2{
   font-size: 0.7rem;
@@ -175,6 +173,13 @@ button{
 .boxicons{
   grid-row: 2 / 3;
   grid-column: 2 /3;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.icon{
+  width: 10px;
+  margin-right: 5px;
 }
 .rightbar{
   display: grid;
