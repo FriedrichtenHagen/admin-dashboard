@@ -46,6 +46,7 @@
   width: 15px;
   padding: 2px;
   margin-right: 5px;
+  cursor: pointer;
 } 
 .profile{
   display: flex;
@@ -64,9 +65,11 @@ input{
   width: 30px;
   background-color: var(--hightlight);
   border-radius: 5px;
+  cursor: pointer;
 }
 #alerticon{
   width: 21px;
+    cursor: pointer;
 }
 .username{
   font-size: 2rem;
@@ -95,6 +98,7 @@ input{
   padding: 2px;
   background-color: var(--hightlight);
   border-radius: 5px;
+  cursor: pointer;
 }
 .buttonrow{
   padding: 5px;
@@ -126,6 +130,7 @@ button{
 #cuteicon{
   width: 9vw;
   padding: 4px;
+    cursor: pointer;
 }
 .navul>li{
   display: flex;
@@ -134,6 +139,7 @@ button{
 }
 .navicons{
   width: 2rem;
+  cursor: pointer;
 }
 .navlist1, .navlist2{
   font-size: 0.7rem;
@@ -204,10 +210,12 @@ button{
   display: flex;
   align-items: center;
   justify-content: flex-end;
+    cursor: pointer;
 }
 .icon{
   width: 15px;
   margin-right: 5px;
+  cursor: pointer;
 }
 .rightbar{
   display: grid;
