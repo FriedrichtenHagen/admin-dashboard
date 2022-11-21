@@ -3,7 +3,8 @@
   --hightlight: rgb(252, 248, 176);
   --contentbackground: rgb(198, 203, 208);
   --boxcolor: rgb(249 246 246);
-  --navbarcolor: rgb(32, 210, 241);
+  --navbarcolor:rgb(190, 237, 242);
+  background-color: var(--navbarcolor);
 }
 *{
   margin: 0px;
@@ -158,6 +159,7 @@ button{
   grid-template-rows: 1fr ;
   padding: 45px;
   background-color: var(--contentbackground);
+  border-top-left-radius: 40px
 }
 .projects{
   grid-column: 1 /3;
