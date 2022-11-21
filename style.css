@@ -156,7 +156,7 @@ button{
   display: grid;
   grid-template-columns: 1.8fr 1.8fr 1fr;
   grid-template-rows: 1fr ;
-  padding: 10px;
+  padding: 45px;
   background-color: var(--contentbackground);
 }
 .projects{
@@ -164,7 +164,7 @@ button{
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 30px 1fr 1fr 1fr;
-  gap: 15px;
+  gap: 30px;
 }
 .projectheader{
   grid-column: 1/3;
@@ -208,8 +208,8 @@ button{
 .rightbar{
   display: grid;
   grid-template-rows: 30px 1fr 30px 1fr;
-  gap: 15px;
-  padding-left: 10px;
+  gap: 30px;
+  padding-left: 30px;
 }
 .announcementheader{
   text-align: center;
@@ -237,12 +237,15 @@ button{
 }
 .trendbox{
   border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 .trendimage{
-  width: 3rem;
-  height: 3rem;
-  background-color: blue;
-  border-radius: 1.5rem;
+  width: 4rem;
+  height: 4rem;
+
+
   display: flex;  
   justify-content: center;
   align-items: center;
@@ -253,6 +256,9 @@ button{
 }
 .trendtext{
   margin-left:1.5rem;
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .trendline1{
   font-weight: bold;
