@@ -4,12 +4,17 @@
   --contentbackground: rgb(198, 203, 208);
   --boxcolor: rgb(249 246 246);
   --navbarcolor:rgb(190, 237, 242);
-  background-color: var(--navbarcolor);
+
 }
 *{
   margin: 0px;
   padding: 0px;
   font-family: 'Source Code Pro', monospace;
+}
+body{
+  background-color: var(--navbarcolor);
+  height: 100vh;
+  width: 100vw;
 }
 .gridcontainer {
   height: 100vh;
@@ -36,6 +41,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 13px;
 }
 .search{
   display: flex;
@@ -286,6 +292,7 @@ button{
 @media only screen and (max-width: 900px) {
   .content{
     grid-template-columns: 1fr 1fr;
+    border-top-right-radius: 40px;
   }
 
 }
@@ -301,5 +308,21 @@ button{
   }
   .projectheader{
     grid-column: 1 / 2;
+  }
+  /* remove navbar */
+  .header{
+    grid-column: 1 / 3;
+  }
+  .content{
+    grid-column: 1 /3;
+  }
+  .navbar{
+    display: none;
+  }
+  .username{
+    display: none;
+  }
+  #caticonlarge{
+    display: none;
   }
 }
