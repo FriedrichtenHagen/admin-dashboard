@@ -259,11 +259,13 @@ button{
   border: 1px solid black;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  align-items: center;
+  max-height: 230px;
+  padding-left: 10%;
 }
 .trendimage{
-  width: 4rem;
-  height: 4rem;
+  width: 3rem;
+  height: 3rem;
 
 
   display: flex;  
@@ -293,6 +295,9 @@ button{
   .content{
     grid-template-columns: 1fr 1fr;
     border-top-right-radius: 40px;
+  }
+  .rightbar{
+    padding-left: 0px;
   }
 
 }
@@ -324,5 +329,15 @@ button{
   }
   #caticonlarge{
     display: none;
+  }
+  .buttonrow{
+    display: flex;
+    flex-direction: column;
+  }
+  button{
+    margin: 2px;
+  }
+  .content{
+    padding: 15px;
   }
 }
