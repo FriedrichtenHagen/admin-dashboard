@@ -164,6 +164,7 @@ button:hover{
 .navul>li:hover{
   scale: 1.2;
   transition: all;
+  font-weight: bold;
 }
 
 .navicons{
@@ -208,6 +209,7 @@ button:hover{
 }
 .projectheader, .announcementheader, .trendingheader{
   font-size: 1.5rem;
+  font-weight: bold;
 }
 .box{
   border: 1px solid black;
@@ -226,7 +228,7 @@ button:hover{
   overflow: scroll;
 }
 .box h2{
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 .boxtext{
   font-size: 1rem;
@@ -340,6 +342,7 @@ button:hover{
   }
   .projectheader{
     grid-column: 1 / 2;
+    font-weight: bold;
   }
   /* remove navbar */
   .header{
