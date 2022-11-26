@@ -73,9 +73,17 @@ input{
   border-radius: 5px;
   cursor: pointer;
 }
+#caticon:hover{
+  scale: 1.2;
+  transition: all;
+}
 #alerticon{
   width: 21px;
     cursor: pointer;
+}
+#alerticon:hover{
+  scale: 1.2;
+  transition: all;
 }
 .username{
   font-size: 2rem;
@@ -106,6 +114,10 @@ input{
   border-radius: 5px;
   cursor: pointer;
 }
+#caticonlarge:hover{
+  scale: 1.2;
+  transition: all;
+}
 .buttonrow{
   padding: 5px;
   display: flex;
@@ -118,6 +130,10 @@ button{
   border: 0px solid black;
   font-size: 1em;
   background-color: var(--hightlight);
+}
+button:hover{
+  scale: 1.1;
+  transition: all;
 }
 
 
@@ -145,6 +161,11 @@ button{
   align-items: center;
   margin-top: 0px;
 }
+.navul>li:hover{
+  scale: 1.2;
+  transition: all;
+}
+
 .navicons{
   width: 2rem;
   cursor: pointer;
@@ -220,6 +241,10 @@ button{
   justify-content: flex-end;
     cursor: pointer;
 }
+.icon:hover{
+  scale: 1.2;
+  transition: all;
+}
 .icon{
   width: 15px;
   margin-right: 5px;
@@ -266,11 +291,13 @@ button{
 .trendimage{
   width: 3rem;
   height: 3rem;
-
-
   display: flex;  
   justify-content: center;
   align-items: center;
+}
+.trendimage:hover{
+  scale: 1.2;
+  transition: all;
 }
 .trend1, .trend2, .trend3, .trend4{
   display: flex;
