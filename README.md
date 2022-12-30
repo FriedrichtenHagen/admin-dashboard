@@ -5,8 +5,10 @@ The dashboard of an imaginary online service. This project is strictly HTML and 
 Here is a link to the live demo: https://friedrichtenhagen.github.io/admin-dashboard/
 
 desktop screenshot: 
+
 ![alt text](screenshot-desktop.png)
-mobile screenshot: 
+mobile screenshot:  
+
 ![alt text](screenshot-mobile.png)
 
 ## How it's made: 
