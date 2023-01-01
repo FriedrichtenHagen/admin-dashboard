@@ -130,6 +130,7 @@ button{
   border: 0px solid black;
   font-size: 1em;
   background-color: var(--hightlight);
+  cursor: pointer;
 }
 button:hover{
   scale: 1.1;
@@ -160,6 +161,7 @@ button:hover{
   display: flex;
   align-items: center;
   margin-top: 0px;
+  cursor: pointer;
 }
 .navul>li:hover{
   scale: 1.2;
